@@ -1,0 +1,21 @@
+{% load staticfiles %}
+
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+
+  <script src="http://unpkg.com/react/dist/react.min.js"></script>
+  <script src="http://unpkg.com/react-dom/dist/react-dom.min.js"></script>
+  <script src="http://unpkg.com/whatwg-fetch"></script>
+  <script src="http://unpkg.com/babel-standalone"></script>
+  <script src="{% static 'djangoreact.jsx' %}" type="text/jsx"></script>
+</head>
+<body>
+
+	<h1>Cats: React + Django</h1>
+<div id="root"></div>
+
+</body>
+</html>
