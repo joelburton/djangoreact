@@ -1,3 +1,6 @@
+DjangoReact
+===========
+
 A trivial Django app to show a simple RESTful integration with React.
 
 To install::
