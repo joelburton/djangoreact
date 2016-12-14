@@ -1,4 +1,3 @@
 Django==1.10.4
--e git+https://github.com/djsutho/django-debug-toolbar-request-history.git@728468bcb2d8d32c4e9f22d9e4d9660f01d41cd1#egg=django_debug_toolbar_request_history
 djangorestframework==3.5.3
 sqlparse==0.2.2
